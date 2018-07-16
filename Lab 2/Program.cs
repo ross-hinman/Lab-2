@@ -19,15 +19,15 @@ namespace Lab_2
 
             while (answer == "y")
             { 
-            Console.WriteLine("Enter Length: ");
-            length = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Enter Width: ");
-            width = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Enter Height: ");
-            height = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Area: " + length * width);
-            Console.WriteLine("Perimeter: " + (length + width)*2);
-            Console.WriteLine("Volume: " + length * width * height);
+                Console.WriteLine("Enter Length: ");
+                length = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Enter Width: ");
+                width = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Enter Height: ");
+                height = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Area: " + length * width);
+                Console.WriteLine("Perimeter: " + (length + width)*2);
+                Console.WriteLine("Volume: " + length * width * height);
                 Console.WriteLine("Continue? (y/n)");
                 answer = (Console.ReadLine());
                 answer = answer.ToLower();
