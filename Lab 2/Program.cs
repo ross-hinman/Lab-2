@@ -23,11 +23,11 @@ namespace Lab_2
             length = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter Width: ");
             width = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("Enter Height: ");
-                height = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter Height: ");
+            height = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Area: " + length * width);
-            Console.WriteLine("Perimeter: " + 2 * length + 2 * width);
-                Console.WriteLine("Volume: " + length * width * height);
+            Console.WriteLine("Perimeter: " + (length + width)*2);
+            Console.WriteLine("Volume: " + length * width * height);
                 Console.WriteLine("Continue? (y/n)");
                 answer = (Console.ReadLine());
                 answer = answer.ToLower();
